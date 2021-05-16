@@ -1,7 +1,62 @@
-code {
-    background-color: whitesmoke;
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
 }
 
-section, header {
+body {
+    font-family: 'Play',
+    sans-serif;
+    background-color: #2d3436;
+}
+code {
+    background-color: whitesmoke;
+    color: #000;
+}
+
+header, footer{
     margin: 50px;
+    text-align: center;
+    color: #badc58;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+section {
+    text-align: center;
+    color: #badc58;
+    border: 5px solid #aa3728;
+    border-radius: 5px;
+    background-color: #3d3d3d;
+    margin: auto;
+    max-width: 1000px;
+    min-height: 200px;
+}
+
+.border {
+    width: 200px;
+    margin: auto;
+}
+
+#result {
+    padding: 10px;
+}
+
+#jsonResult {
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#testui {
+    margin: 35px auto;
+    width: 100%;
+}
+
+#convertField {
+    padding: 5px;
+    margin: auto;
 }
